@@ -17,13 +17,13 @@ const Experience = () => {
       <div className="flex flex-col md:flex-row justify-between items-center gap-10 ">
         <div className=" text-sm md:text-xl lg:text-xl leading-relaxed">
           <p>
-            Lorem ipsum dolor sit amet,{" "}
+            Lorem ipsum dolor sit amet
             <span className="font-bold">Software Engineer</span> consectetur
             adipisicing elit. Officiis reprehenderit ipsa dolore optio vero
-            ipsam totam libero culpa. Lorem ipsum, dolor sit amet consectetur
+            ipsam totam libero culpa. lorem ipsum, dolor sit amet consectetur
             adipisicing elit. Vel, maxime! Lorem, ipsum dolor sit amet
             consectetur adipisicing elit. Mollitia distinctio blanditiis
-            incidunt ullam. Mollitia, veritatis?
+            incidunt ullam. Mollitia, veritatis? hello world
           </p>
 
           <p className="mt-6">
