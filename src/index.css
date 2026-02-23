@@ -1,0 +1,21 @@
+@import "tailwindcss";
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+/* @tailwind base; */
+/* @tailwind components; */
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply m-0 p-0;
+  }
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+}
