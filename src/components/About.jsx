@@ -18,7 +18,7 @@ const About = () => {
           / about me
         </h1>
 
-        <div className="border-t border-[#ccd6f6] w-1/2 sm:w-2/6"></div>
+        <div className="border-t border-[#ccd6f6] "></div>
       </div>
 
       {/* CONTENT */}

@@ -8,7 +8,7 @@ const Experience = () => {
       className="   text-[#ccd6f6] w-full px-15 mt-10 sm:px-22  lg:px-40 py-20   flex-col items-center  h-screen"
     >
       <div className="flex items-center gap-6">
-        <h1 className="text-xl  sm:text-2xl md:text-3xl lg:text-4xl font-bold whitespace-nowrap mb-5 md:mb-10">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold whitespace-nowrap mb-5 md:mb-10">
           / experience
         </h1>
         <div className=" border-t border-[#ccd6f6]  mb-3 w-4/6  md:mb-8"></div>

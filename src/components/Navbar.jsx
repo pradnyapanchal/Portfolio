@@ -27,6 +27,10 @@ const Navbar = () => {
       id: 4,
       link: "Projects",
     },
+    {
+      id:5,
+      link:"Contact"
+    }
   ];
   return (
     <div className="bg-[#0a0f2c] text-[#ccd6f6] fixed top-0 left-0 flex justify-between items-center px-6 sm:px-10 py-4 w-full h-16 z-50">

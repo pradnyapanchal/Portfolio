@@ -14,7 +14,7 @@ const Projects = () => {
     >
       {/* 🔥 Modern Heading */}
       <div className="flex items-center gap-5 mt-20 ">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold tracking-wide  whitespace-nowrap ">
+        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold  tracking-wide  whitespace-nowrap ">
           / pet projects
         </h1>
         <div className="border-t border-[#ccd6f6] w-full sm:w-5/6"></div>{" "}
