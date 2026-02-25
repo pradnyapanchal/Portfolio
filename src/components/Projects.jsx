@@ -7,14 +7,14 @@ const Projects = () => {
       className="
         bg-[#0a0f2c] text-[#ccd6f6]
         w-full min-h-screen
-        px-6 sm:px-12 md:px-20 lg:px-32
+         px-6 sm:px-12 md:px-20 lg:px-40
         
         flex flex-col  gap-16
       "
     >
       {/* 🔥 Modern Heading */}
       <div className="flex items-center gap-5 mt-20 ">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold  tracking-wide  whitespace-nowrap ">
+        <h1 className="text-3xl sm:text-3xl md:text-4xl font-bold  tracking-wide  whitespace-nowrap ">
           / pet projects
         </h1>
         <div className="border-t border-[#ccd6f6] w-full sm:w-5/6"></div>{" "}

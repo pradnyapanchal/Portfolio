@@ -9,30 +9,29 @@ const About = () => {
         bg-[#0a0f2c] text-[#ccd6f6]
         w-full min-h-screen
         px-6 sm:px-12 md:px-20 lg:px-40 
-        flex flex-col justify-start mt-10
+        flex flex-col justify-start 
       "
     >
       {/* HEADING */}
       <div className="flex items-center gap-4 sm:gap-6">
-        <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold whitespace-nowrap">
+        <h1 className="text-3xl sm:text-3xl md:text-4xl font-bold whitespace-nowrap">
           / about me
         </h1>
 
-        <div className="border-t border-[#ccd6f6] "></div>
+        <div className="border-t  border-[#ccd6f6] w-5/6 "></div>
       </div>
 
       {/* CONTENT */}
       <div className="flex flex-col md:flex-row justify-between items-start gap-12 mt-10">
         {/* LEFT TEXT */}
         <div className="md:w-3/5 text-sm sm:text-base md:text-lg lg:text-xl leading-relaxed">
-          <p>Lorem ipsum dolor sit amet consectetur adip
-            Lorem ipsum dolor sit amet,{" "}
-            <span className="font-bold">Software Engineer</span> consectetur
-            adipisicing elit. Officiis reprehenderit ipsa dolore optio vero
-            ipsam totam libero culpa. Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Vel, maxime! Lorem, ipsum dolor sit amet
-            consectetur adipisicing elit. Mollitia distinctio blanditiis
-            incidunt ullam. Mollitia, veritatis? Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus possimus architecto facilis, tenetur deleniti nobis dolorem fugiat, quis recusandae ad aliquam non. Unde nemo veritatis laboriosam placeat hic, cupiditate nulla.
+          <p>
+            Lorem ipsum dolor sit amet consectetur adip Lorem ipsum dolor sit
+            amet, <span className="font-bold">Msc. Computer Science</span>{" "}
+            consectetur adipisicing elit. Officiis reprehenderit ipsa dolore
+            optio vero ipsam totam libero culpa. Lorem ipsum, dolor sit amet
+            consectetur adipisicing elit. Vel, maxime! Lorem, ipsum dolor sit
+            Unde nemo veritatis laboriosam placeat hic, cupiditate nulla.
           </p>
 
           <p className="mt-6">
@@ -40,20 +39,26 @@ const About = () => {
           </p>
 
           <ul className="mt-4 grid grid-cols-2 gap-y-3 gap-x-8">
-            {["python", "mern", "html", "java", "js", "tailwind css"].map(
-              (skill, i) => (
-                <li key={i} className="flex items-center gap-2">
-                  <MdPlayArrow className="text-[rgb(0,255,195)]" />
-                  {skill}
-                </li>
-              ),
-            )}
+            {[
+              "React",
+              "Express",
+              "MongoDB",
+              "SQL",
+              "HTML",
+              "Java",
+              "JS6+",
+              "tailwind CSS",
+            ].map((skill, i) => (
+              <li key={i} className="flex items-center gap-2">
+                <MdPlayArrow className="text-[rgb(0,255,195)]" />
+                {skill}
+              </li>
+            ))}
           </ul>
         </div>
 
         {/* RIGHT IMAGE */}
 
-        
         <img
           className="
             w-56 h-56

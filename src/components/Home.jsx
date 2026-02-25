@@ -70,26 +70,22 @@ const Home = () => {
     return () => myP5.remove();
   }, []);
 
+  const text = "Hi, Pradnya here.";
+  const name = "Pradnya";
 
-const text = "Hi, Pradnya here.";
-const name = "Pradnya";
+  const [displayText, setDisplayText] = useState("");
+  const [index, setIndex] = useState(0);
 
-const [displayText, setDisplayText] = useState("");
-const [index, setIndex] = useState(0);
+  useEffect(() => {
+    if (index < text.length) {
+      const timeout = setTimeout(() => {
+        setDisplayText((prev) => prev + text[index]);
+        setIndex(index + 1);
+      }, 80);
 
-useEffect(() => {
-  if (index < text.length) {
-    const timeout = setTimeout(() => {
-      setDisplayText((prev) => prev + text[index]);
-      setIndex(index + 1);
-    }, 80);
-
-    return () => clearTimeout(timeout);
-  }
-}, [index]);
-
-
-
+      return () => clearTimeout(timeout);
+    }
+  }, [index]);
 
   return (
     /* CENTERING CONTAINER */
@@ -123,7 +119,9 @@ useEffect(() => {
           );
         })}
 
-        <span className="cursor ml-3 text-[rgb(0,255,195)] animate-pulse opacity-0">|</span>
+        <span className="cursor ml-3 text-[rgb(0,255,195)] animate-pulse opacity-0">
+          |
+        </span>
       </h1>
 
       {/* DESCRIPTION */}
@@ -131,6 +129,12 @@ useEffect(() => {
         I build modern web experiences using React, Tailwind CSS and creative
         coding. Passionate about interactive UI, animations and clean design.
       </p>
+      <button
+        onClick={() => window.open("/resume.pdf")}
+        className="bg-[#112240] text-xs  text-white px-4 py-2 rounded-xl md:hidden mt-5"
+      >
+        Download Resume
+      </button>
     </div>
   );
 };

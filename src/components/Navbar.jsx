@@ -28,9 +28,9 @@ const Navbar = () => {
       link: "Projects",
     },
     {
-      id:5,
-      link:"Contact"
-    }
+      id: 5,
+      link: "Contact",
+    },
   ];
   return (
     <div className="bg-[#0a0f2c] text-[#ccd6f6] fixed top-0 left-0 flex justify-between items-center px-6 sm:px-10 py-4 w-full h-16 z-50">
@@ -38,7 +38,7 @@ const Navbar = () => {
         Pradnya Panchal
       </h1>
       {/* on monile screen it is hidden  */}
-      <ul className="hidden md:flex items-center gap-7 font-bold text-sm">
+      <ul className="hidden md:flex items-center gap-7 px-10 font-bold text-md">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -52,7 +52,15 @@ const Navbar = () => {
       </ul>
 
       <div className="flex items-center">
-        <div className="hidden md:flex items-center gap-5 text-xl">
+        <div className="hidden md:flex items-center gap-5 text-2xl">
+          <a
+            href="https://github.com/pradnyapanchal"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <FaGithub className="cursor-pointer transition duration-300 hover:text-[#a0b3f1] hover:-translate-y-1" />
+          </a>
+
           <a
             href="https://www.linkedin.com/in/777pradnyapanchal"
             target="_blank"
@@ -76,17 +84,12 @@ const Navbar = () => {
             <FaSquareXTwitter className="cursor-pointer transition duration-300 hover:text-[#a0b3f1] hover:-translate-y-1" />
           </a>
 
-          <a
-            href="https://github.com/pradnyapanchal"
-            target="_blank"
-            rel="noopener noreferrer"
+          <button
+            onClick={() => window.open("/resume.pdf")}
+            className="bg-[#0f254d] text-xs shadow-[#091120] shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white px-4 py-2 rounded-xl"
           >
-            <FaGithub className="cursor-pointer transition duration-300 hover:text-[#a0b3f1] hover:-translate-y-1" />
-          </a>
-
-          <a href="" target="_blank" rel="noopener noreferrer">
-            <LuPencilLine className="cursor-pointer transition duration-300 hover:text-[#a0b3f1] hover:-translate-y-1" />
-          </a>
+            Download Resume
+          </button>
         </div>
 
         <div
