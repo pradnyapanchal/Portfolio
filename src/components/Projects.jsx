@@ -23,7 +23,7 @@ const Projects = () => {
       {/* 🔥 Responsive Grid */}
       <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
         {/* Card 1 */}
-        <div className="bg-[#112240] p-6 rounded-xl hover:-translate-y-2 transition duration-300 shadow-lg">
+        <div className="bg-[#112240] p-6 rounded-xl hover:-translate-y-2  transition duration-300 shadow-lg">
           <h2 className="text-xl font-semibold mb-3 ">Project One</h2>
           <p className="text-sm  leading-relaxed">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus

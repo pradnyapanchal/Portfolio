@@ -3,7 +3,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa6";
+import { FaGithubSquare } from "react-icons/fa";
 import { LuPencilLine } from "react-icons/lu";
 import { FaSquareXTwitter } from "react-icons/fa6";
 
@@ -34,11 +34,11 @@ const Navbar = () => {
   ];
   return (
     <div className="bg-[#0a0f2c] text-[#ccd6f6] fixed top-0 left-0 flex justify-between items-center px-6 sm:px-10 py-4 w-full h-16 z-50">
-      <h1 className="text-lg sm:text-xl font-bold cursor-pointer">
+      <h1 className="text-xl sm:text-xs  lg:text-xl xl:text-2xl  font-extrabold cursor-pointer">
         Pradnya Panchal
       </h1>
-      {/* on monile screen it is hidden  */}
-      <ul className="hidden md:flex items-center gap-7 px-10 font-bold text-md">
+      {/* on mobile screen it is hidden  */}
+      <ul className="hidden md:flex items-center gap-7 xl:text-sm md:text-xs lg:text-sm  px-10  ">
         {links.map(({ id, link }) => (
           <li
             key={id}
@@ -52,13 +52,13 @@ const Navbar = () => {
       </ul>
 
       <div className="flex items-center">
-        <div className="hidden md:flex items-center gap-5 text-2xl">
+        <div className="hidden md:flex items-center md:text-md gap-5 text-2xl">
           <a
             href="https://github.com/pradnyapanchal"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub className="cursor-pointer transition duration-300 hover:text-[#a0b3f1] hover:-translate-y-1" />
+            <FaGithubSquare className="cursor-pointer transition duration-300 hover:text-[#a0b3f1] hover:-translate-y-1" />
           </a>
 
           <a
@@ -86,7 +86,7 @@ const Navbar = () => {
 
           <button
             onClick={() => window.open("/resume.pdf")}
-            className="bg-[#0f254d] text-xs shadow-[#091120] shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white px-4 py-2 rounded-xl"
+            className="bg-[#0f254d] text-xs md:text-xs lg:text-xs shadow-[#091120] shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white   py-2 rounded-xl md:px-2  "
           >
             Download Resume
           </button>
@@ -103,7 +103,7 @@ const Navbar = () => {
       </div>
 
       {nav && (
-        <ul className="fixed top-0 right-0 w-3/5 h-screen flex flex-col justify-center items-center bg-[#0a0f2c]/80 backdrop-blur-md border-l border-[#1f2a55] shadow-xl">
+        <ul className="fixed top-0 right-0 w-3/5 h-screen flex flex-col justify-center items-center bg-[#0a0f2c]/80 backdrop-blur-md border-l border-[#1f2a55] shadow-xl cursor-pointer ">
           {links.map(({ link, id }) => (
             <li
               key={id}

@@ -7,9 +7,12 @@ import { FaSquareXTwitter } from "react-icons/fa6";
 
 const Footer = () => {
   return (
-    <div className="bg-transparent py-4 ">
+    <div
+      className="bg-transparent py-4
+     h-32 font-bold"
+    >
       {" "}
-      <div className="flex items-center justify-center gap-5 sm:gap-6 md:gap-10 pt-4 sm:pt-5 text-2xl">
+      <div className="flex  lg:hidden justify-center gap-4 sm:gap-6 md:gap-10 pt-3 sm:pt-5 text-2xl">
         <a
           href="https://www.linkedin.com/in/777pradnyapanchal"
           target="_blank"
@@ -45,7 +48,7 @@ const Footer = () => {
           <LuPencilLine className="cursor-pointer transition duration-300 hover:text-[#a0b3f1] hover:-translate-y-1" />
         </a>
       </div>
-      <div className="text-center text-sm md:text-sm mt-2 sm:pt-3 md:mt-1">
+      <div className="text-center text-sm md:text-sm mt-2 sm:pt-3 md:mt-1 lg:mt-8">
         {" "}
         Built and designed by Pradnya Panchal.{" "}
       </div>
