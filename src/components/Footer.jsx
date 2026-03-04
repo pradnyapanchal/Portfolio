@@ -48,7 +48,7 @@ const Footer = () => {
           <LuPencilLine className="cursor-pointer transition duration-300 hover:text-[#a0b3f1] hover:-translate-y-1" />
         </a>
       </div>
-      <div className="text-center text-sm md:text-sm mt-2 sm:pt-3 md:mt-1 lg:mt-8">
+      <div className="  text-center text-sm md:text-sm mt-2 sm:pt-3 md:mt-1 lg:mt-8">
         {" "}
         Built and designed by Pradnya Panchal.{" "}
       </div>

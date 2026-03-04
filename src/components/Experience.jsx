@@ -12,13 +12,13 @@ const Experience = () => {
       my-10"
     >
       <div className="flex items-center gap-3">
-        <h1 className="text-3xl sm:text-3xl md:text-4xl font-bold whitespace-nowrap mb-5 md:mb-10">
+        <h1 className="text-3xl sm:text-3xl md:text-4xl font-extrabold whitespace-nowrap mb-5 md:mb-10">
           / experience
         </h1>
         <div className=" border-t border-[#ccd6f6]  mb-3 w-5/6  md:mb-8"></div>
       </div>
       <div className="flex flex-col lg:flex-row items-center lg:items-start gap-10 lg:gap-15 mt-6">
-        <div className=" flex lg:w-2/6  justify-center">
+        <div className=" flex lg:w-2/6  justify-center flex-col items-center ">
           <img
             src="/profile-1.jpg"
             alt="profile"
@@ -27,12 +27,18 @@ const Experience = () => {
                  rounded-xl 
             shadow-[0_0_16px_black]
             transition duration-300
-            hover:-translate-y-2
+            hover:-translate-y-2 mb-10
         "
-          />
+          />{" "}
+          <button
+            onClick={() => window.open("/internship.pdf")}
+            className="bg-[#0f254d] text-xs shadow-[0_0_4px_black] hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white  font-bold py-2 px-3 w-55 rounded-xl flex justify-center"
+          >
+            Internship Certificate
+          </button>
         </div>
 
-        <div className=" text-sm lg:w-4/6 sm:text-base lg:text-lg leading-relaxed">
+        <div className=" text-sm lg:w-4/6 sm:text-base lg:text-lg leading-relaxed ">
           <p>
             Lorem ipsum dolor sit
             <span className="font-bold"> Software Engineer </span>
@@ -52,7 +58,9 @@ const Experience = () => {
             suscipit iste repudiandae doloribus unde pariatur natus. Porro,
             voluptate cupiditate deleniti possimus veniam autem nemo molestias
             quos totam impedit aut id placeat quaerat optio minus blanditiis
-            neque voluptas praesentium!
+            neque voluptas praesentium! Lorem ipsum dolor sit amet consectetur
+            adipisicing elit. Alias inventore saepe rerum molestiae aliquam
+            modi? Adipisci laudantium cum unde sequi!
           </p>
         </div>
       </div>

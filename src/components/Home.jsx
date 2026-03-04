@@ -102,7 +102,7 @@ const Home = () => {
           lg:w-[400px]
         "
       />
-      {/* NAME */}
+      
       <h1 className="text-2xl md:text-3xl lg:text-5xl font-extrabold text-[#ccd6f6] pt-10">
         {displayText.split("").map((char, i) => {
           const start = text.indexOf(name);
@@ -117,8 +117,7 @@ const Home = () => {
           );
         })}
 
-        <span className="cursor ml-3  text-[rgb(0,255,195)] animate-pulse opacity-0">
-          |
+        <span className="cursor ml-3  text-[rgb(0,255,195)] animate-pulse opacity-0">|
         </span>
       </h1>
       <p className="mt-4 max-w-xl text-gray-400  text-sm sm:text-base sm:px-10 leading-relaxed md:text-xl px-5 md:px-1">
@@ -127,7 +126,7 @@ const Home = () => {
       </p>
       <button
         onClick={() => window.open("/resume.pdf")}
-        className="bg-[#112240] text-sm  text-white px-4 py-2 rounded-xl md:hidden mt-5"
+        className="bg-[#112240] text-sm font-medium text-white px-4 py-2 rounded-xl md:hidden mt-5"
       >
         Download Resume
       </button>

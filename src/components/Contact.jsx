@@ -53,14 +53,14 @@ const Contact = () => {
         </div>
 
         <div className="flex items-center gap-3 w-full ">
-          <h1 className="text-3xl sm:text-3xl md:text-4xl font-bold whitespace-nowrap ">
+          <h1 className="text-3xl sm:text-3xl md:text-4xl font-extrabold whitespace-nowrap ">
             / contact
           </h1>
           <div className="border-t  border-[#ccd6f6] w-5/6 "></div>
         </div>
       </div>
       <div className="flex flex-col justify-center items-center gap-6 mt-6">
-        <p className="text-gray-400 text-center text-md  mt-0">
+        <p className="text-gray-400 text-center text-md font-medium mt-0">
           Kindly submit your details through the form to get in touch.
         </p>
 
