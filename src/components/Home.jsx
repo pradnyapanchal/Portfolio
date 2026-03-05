@@ -122,10 +122,9 @@ const Home = () => {
         </span>
       </h1>
       <p className="mt-4 max-w-xl text-gray-400  text-sm sm:text-base sm:px-10 leading-relaxed md:text-xl px-5 md:px-1">
-        M.Sc. Computer Science student and aspiring
-        full-stack developer. Turning curiosity into working projects systems
-        . Exploring how ideas turn into real
-        applications.
+        M.Sc. Computer Science student and aspiring full-stack developer.
+        Turning curiosity into working projects systems . Exploring how ideas
+        turn into real applications.
       </p>
       <button
         onClick={() => window.open("/resume.pdf")}
