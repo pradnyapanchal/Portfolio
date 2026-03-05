@@ -1,6 +1,4 @@
 import { useState } from "react";
-// import reactLogo from "./assets/react.svg";
-// import viteLogo from "/diamondbleu.svg";
 import "./index.css";
 
 import React from "react";
@@ -13,7 +11,6 @@ import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import Contact from "./components/Contact";
 
-
 const App = () => {
   return (
     <div className=" bg-[#0a0f2c] text-[#ccd6f6] min-h-screen ">
@@ -22,8 +19,8 @@ const App = () => {
       <About />
       <Experience />
       <Projects />
-      <Contact/>
-      <Footer/>
+      <Contact />
+      <Footer />
     </div>
   );
 };

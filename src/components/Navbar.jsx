@@ -157,12 +157,10 @@ const Navbar = () => {
 
   return (
     <div className="bg-[#0a0f2c] text-[#ccd6f6] fixed top-0 left-0 flex justify-between items-center px-6 sm:px-10 py-4 w-full h-16 z-50">
-      
       <h1 className="text-lg sm:text-base lg:text-xl xl:text-2xl font-bold cursor-pointer">
         Pradnya Panchal
       </h1>
 
-      
       <ul className="hidden md:flex items-center gap-7 xl:text-sm md:text-xs lg:text-sm px-10">
         {links.map(({ id, link }) => (
           <li
@@ -176,7 +174,6 @@ const Navbar = () => {
         ))}
       </ul>
 
-      
       <div className="hidden md:flex items-center gap-5 text-2xl">
         <a
           href="https://github.com/pradnyapanchal"
@@ -202,16 +199,15 @@ const Navbar = () => {
         <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
           <FaSquareXTwitter className="hover:text-[#a0b3f1] hover:-translate-y-1 transition duration-300" />
         </a>
-
-        <button
-          onClick={() => window.open("/resume.pdf")}
-          className="bg-[#0f254d] text-xs shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white py-2 px-3 rounded-xl"
+        <a
+          href="/resume.pdf"
+          download
+          className="bg-[#0f254d] text-xs shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white py-2 px-3 rounded-xl inline-block"
         >
           Download Resume
-        </button>
+        </a>{" "}
       </div>
 
-      
       <div
         onClick={() => setNav(!nav)}
         className="md:hidden cursor-pointer z-100"
@@ -221,11 +217,9 @@ const Navbar = () => {
         : <FaBars size={25} />}
       </div>
 
-      
       <AnimatePresence>
         {nav && (
           <>
-
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 0.6 }}
@@ -235,7 +229,6 @@ const Navbar = () => {
               className="fixed inset-0 bg-black z-40"
             />
 
-            
             <motion.ul
               initial={{ x: "100%" }}
               animate={{ x: 0 }}

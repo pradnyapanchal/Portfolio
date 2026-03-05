@@ -31,18 +31,18 @@ const About = () => {
               University of Mumbai{" "}
             </span>{" "}
             and hold a{" "}
-            <span className="font-bold">
-              Bachelor of Science ( B.Sc.)
-            </span>{" "}
+            <span className="font-bold">Bachelor of Science ( B.Sc.)</span>{" "}
             degree in Computer Science from
             <span className="text-[rgb(0,255,195)] font-bold">
               {" "}
               Shankar Narayan College.{" "}
             </span>
-            . consectetur adipisicing elit. Officiis reprehenderit ipsa dolore
-            optio vero ipsam totam libero culpa. Lorem ipsum, dolor sit amet
-            consectetur adipisicing elit. Vel, maxime! Lorem, ipsum dolor sit
-            Unde nemo veritatis laboriosam placeat hic, cupiditate nulla.
+            I focus on backend and full-stack web development. I also have
+            experience using Git for version control and implementing middleware
+            for real-time features. I follow good development practices
+            including debugging, testing, writing clean and maintainable code. I
+            also have a good understanding of DSA, Object-Oriented Programming,
+            and SDLC.
           </p>
 
           <p>Here are some technologies I have been working with:</p>
@@ -56,7 +56,7 @@ const About = () => {
               "HTML",
               "Java",
               "JS6+",
-              "tailwind CSS",
+              "Tailwind CSS",
             ].map((skill, i) => (
               <li key={i} className="flex items-center gap-2">
                 <MdPlayArrow className="text-[rgb(0,255,195)]" />
@@ -66,7 +66,7 @@ const About = () => {
           </ul>
           <p>
             Outside of study, I’m nerdy about tech gadgets, love literary
-            fiction, and play way too many battle royale games. 
+            fiction, and play way too many battle royale games.
           </p>
         </div>
 
