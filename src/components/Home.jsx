@@ -1,10 +1,6 @@
-// import React from "react";
-
 import React, { useEffect, useRef, useState } from "react";
 import p5 from "p5";
 import { motion } from "framer-motion";
-
-// import "./TopContent.css";
 
 const Home = () => {
   const sketchRef = useRef(null);
