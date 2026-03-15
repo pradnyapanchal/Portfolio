@@ -2,11 +2,12 @@ import React from "react";
 import { MdPlayArrow } from "react-icons/md";
 
 const Experience = () => {
+  // const workImages = ["./work/mbmc2.jpg", "./work/mbmc1.jpg"];
   return (
     <div
       name="Experience"
-      className="   text-[#ccd6f6] w-full  px-6 sm:px-12 md:px-20 lg:px-30 py-20  flex-col items-center min-h-screen 
-      my-10"
+      className="   text-[#ccd6f6]bg-[#0a0f2c] text-[#ccd6f6] min-h-screen
+       max-w-7xl w-full px-6 sm:px-12 md:px-16 lg:px-20 flex flex-col justify-center mx-auto my-10"
     >
       <div className="flex items-center gap-3">
         <h1 className="text-3xl sm:text-3xl md:text-4xl font-extrabold whitespace-nowrap mb-5 md:mb-10">
@@ -64,7 +65,26 @@ const Experience = () => {
           </p>
         </div>
       </div>
-      {/* </div> */}
+
+      {/* <div className="mt-16">
+        <h2 className="text-xl font-bold mb-6 ">Work Highlights</h2>
+
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10">
+          {workImages.map((img, index) => (
+            <div
+              key={index}
+              className="overflow-hidden rounded-xl shadow-lg
+            hover:scale-105 transition duration-300"
+            >
+              <img
+                src={img}
+                alt="work"
+                className="w-full sm:h-60 h-40  object-cover"
+              />
+            </div>
+          ))}
+        </div>
+      </div> */}
     </div>
   );
 };

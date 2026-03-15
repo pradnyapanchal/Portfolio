@@ -86,7 +86,7 @@ const Home = () => {
   return (
     <div
       name="Home"
-      className="min-h-screen flex flex-col justify-center items-center w-full text-center  px-4 py-10 "
+      className="min-h-screen max-w-7xl w-full px-6 sm:px-12 md:px-16 lg:px-20 flex flex-col justify-center mx-auto items-center  text-center  py-10  "
     >
       <div
         ref={sketchRef}

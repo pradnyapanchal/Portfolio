@@ -202,7 +202,7 @@ const Navbar = () => {
         <a
           href="/resume.pdf"
           download
-          className="bg-[#0f254d] text-xs shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white py-2 px-3 rounded-xl inline-block"
+          className="bg-[#0f254d] text-xs text-center shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white py-2 px-3 rounded-xl inline-block"
         >
           Download Resume
         </a>{" "}
