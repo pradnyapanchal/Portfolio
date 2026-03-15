@@ -146,7 +146,6 @@ const Navbar = () => {
     { id: 5, link: "Contact" },
   ];
 
-  //  Prevent background scroll when menu open
   useEffect(() => {
     if (nav) {
       document.body.style.overflow = "hidden";

@@ -18,7 +18,7 @@ const About = () => {
         <div className="border-t  border-[#ccd6f6] w-5/6 "></div>
       </div>
 
-      <div className="flex flex-col md:flex-row justify-between items-center  lg:items-start  gap-8 mt-8">
+      <div className="flex flex-col md:flex-row justify-between items-center    lg:items-start  gap-8 mt-8">
         <div className="flex flex-col gap-5  md:w-3/5 text-sm sm:text-base  lg:text-lg leading-relaxed">
           <p>
             I am currently pursuing a part-time
@@ -52,7 +52,7 @@ const About = () => {
               "MongoDB",
               "SQL",
               "HTML",
-              "Java",
+              "Core Java",
               "JS6+",
               "Tailwind CSS",
             ].map((skill, i) => (
@@ -73,7 +73,8 @@ const About = () => {
             w-70 h-70
             sm:w-90 sm:h-75
             md:w-72 md:h-72
-            lg:w-100 lg:h-90
+            lg:w-100 lg:h-100
+            sm:mb-20
             object-cover
             rounded-lg
             shadow-[0_0_16px_black]
