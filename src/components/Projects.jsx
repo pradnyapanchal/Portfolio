@@ -141,18 +141,19 @@ import { VscGithub } from "react-icons/vsc";
 // export default Projects;
 
 import React, { useEffect, useState } from "react";
-
+import portfolioImg from "../assets/My-portfolio.png";
+import railImg from "../assets/Rail-Sathi-App.jpg";
 const username = "pradnyapanchal";
 
 const selectedRepos = [
   {
     repoName: "Portfolio",
-    image: "src/assets/My-portfolio.png",
+    image: portfolioImg,
     live: "https://pradnyapanchal.com",
   },
   {
     repoName: "Rail-Sathi-App",
-    image: "src/assets/Rail-Sathi-App.jpg",
+    image: railImg,
     live: "https://rail-sathi-app.vercel.app",
   },
 ];
