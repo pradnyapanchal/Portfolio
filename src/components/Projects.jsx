@@ -1,6 +1,6 @@
 // import React, { useEffect, useState } from "react";
-import { GrHost } from "react-icons/gr";
-import { VscGithub } from "react-icons/vsc";
+// import { GrHost } from "react-icons/gr";
+// import { VscGithub } from "react-icons/vsc";
 
 // const username = "pradnyapanchal";
 
