@@ -1,23 +1,34 @@
-# 🚀 Portfolio Website
+<p align="center">
+  <img src="https://img.icons8.com/color/48/000000/magritte.png"/>
+</p>
+<h1 align="center">
+  pradnyapanchal.com - v1
+</h1>
+<p align="center">
+  The first iteration of <a href="https://gazijarin.com" target="_blank">pradnyapanchal.com</a> built with React.js leveraging Material UI.
+</p>
 
-A modern portfolio built with React + Vite.
+<img width="1306" alt="portfolio screenshot" src="https://user-images.githubusercontent.com/32211479/111238274-24f8b100-85cd-11eb-9d5a-00f07cbc05e9.png">
 
-## 🛠 Tech Stack
+## 🛠 set-up
 
-- React
-- Vite
-- JavaScript
-- CSS / Tailwind
+1. Install the dependencies
 
-## 📂 Features
+   ```sh
+   npm install 
+   ```
 
-- Responsive design
-- About section
-- Projects section
+2. Start the development server
 
-## 🚀 Installation
+   ```sh
+   npm run start
+   ```
 
-```bash
-npm install
-npm run dev
-```
+## 🚀 build and run for production
+
+1. Generate a full static production build
+
+   ```sh
+   npm run build
+   ```
+
