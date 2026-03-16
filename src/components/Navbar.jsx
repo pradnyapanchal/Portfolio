@@ -134,7 +134,6 @@ import { FaLinkedin, FaInstagramSquare, FaGithubSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import { motion, AnimatePresence } from "framer-motion";
 
-
 const Navbar = () => {
   const [nav, setNav] = useState(false);
 
@@ -189,7 +188,7 @@ const Navbar = () => {
           <FaLinkedin className="hover:text-[#a0b3f1] hover:-translate-y-1 transition duration-300" />
         </a>
         <a
-          href="https://www.instagram.com/"
+          href="https://www.instagram.com/pradnyapanchal_"
           target="_blank"
           rel="noopener noreferrer"
         >
