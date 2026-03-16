@@ -104,6 +104,7 @@ const Contact = () => {
               loading ? "opacity-50 cursor-not-allowed" : ""
             }`}
           >
+            
             {loading ? "Sending..." : "Send Message"}
           </button>
         </form>

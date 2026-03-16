@@ -194,7 +194,12 @@ const Navbar = () => {
         >
           <FaInstagramSquare className="hover:text-[#a0b3f1] hover:-translate-y-1 transition duration-300" />
         </a>
-        <a href="https://x.com/" target="_blank" rel="noopener noreferrer">
+        <a
+          href="https://x.com/@pradnyapanchal_
+"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
           <FaSquareXTwitter className="hover:text-[#a0b3f1] hover:-translate-y-1 transition duration-300" />
         </a>
         <a
