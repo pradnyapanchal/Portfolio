@@ -55,6 +55,8 @@ const About = () => {
               "Core Java",
               "JS6+",
               "Tailwind CSS",
+              "C#",
+              "Python"
             ].map((skill, i) => (
               <li key={i} className="flex items-center gap-2">
                 <MdPlayArrow className="text-[rgb(0,255,195)]" />
