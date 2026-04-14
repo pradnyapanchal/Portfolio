@@ -132,7 +132,7 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { FaLinkedin, FaInstagramSquare, FaGithubSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-import { motion, AnimatePresence } from "framer-motion";
+// import { motion, AnimatePresence } from "framer-motion";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -203,7 +203,7 @@ const Navbar = () => {
           <FaSquareXTwitter className="hover:text-[#a0b3f1] hover:-translate-y-1 transition duration-300" />
         </a>
         <a
-          href="/resume.pdf"
+          href="/pradnya-resume.pdf"
           download
           className="bg-[#0f254d] text-xs text-center shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white py-2 px-3 rounded-xl inline-block"
         >
