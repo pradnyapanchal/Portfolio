@@ -132,9 +132,23 @@ import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 import { FaLinkedin, FaInstagramSquare, FaGithubSquare } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
-// import { motion, AnimatePresence } from "framer-motion";
+import {  AnimatePresence ,motion} from "framer-motion";
+
+
+
+
+
+
+
+
+
 
 const Navbar = () => {
+
+
+
+
+  console.log(motion);
   const [nav, setNav] = useState(false);
 
   const links = [
