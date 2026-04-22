@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import p5 from "p5";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Home = () => {
   const sketchRef = useRef(null);
@@ -123,7 +123,7 @@ const Home = () => {
         turn into real applications.
       </p>
       <button
-        onClick={() => window.open("/resume.pdf")}
+        onClick={() => window.open("/pradnya-CV.pdf")}
         className="bg-[#112240] text-sm font-medium text-white px-4 py-2 rounded-xl md:hidden mt-5"
       >
         Download Resume

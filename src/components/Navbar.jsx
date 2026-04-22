@@ -136,13 +136,6 @@ import {  AnimatePresence ,motion} from "framer-motion";
 
 
 
-
-
-
-
-
-
-
 const Navbar = () => {
 
 
@@ -217,7 +210,7 @@ const Navbar = () => {
           <FaSquareXTwitter className="hover:text-[#a0b3f1] hover:-translate-y-1 transition duration-300" />
         </a>
         <a
-          href="/pradnya-resume.pdf"
+          href="/pradnya-CV.pdf"
           download
           className="bg-[#0f254d] text-xs text-center shadow-md hover:bg-[#0b3e9d] transition hover:translate-y-0.5 text-white py-2 px-3 rounded-xl inline-block"
         >
