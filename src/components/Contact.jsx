@@ -9,7 +9,7 @@ const Contact = () => {
 
   const handleChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
-    // console.log(e);
+
   };
   const handleSubmit = (e) => {
     e.preventDefault();
