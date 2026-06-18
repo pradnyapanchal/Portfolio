@@ -46,16 +46,13 @@ const About = () => {
           <p>Here are some technologies I have been working with:</p>
 
           <ul className="grid grid-cols-2 font-medium gap-y-2 gap-x-5">
-            {[
-              "React",
-              "Express",
-              "MongoDB",
+            {["MERN Stack",
               "SQL",
               "HTML",
               "Core Java",
               "JS6+",
               "Tailwind CSS",
-              "C#",
+              "Gen AI",
               "Python"
             ].map((skill, i) => (
               <li key={i} className="flex items-center gap-2">
