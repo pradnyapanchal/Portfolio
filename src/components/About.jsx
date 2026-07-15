@@ -35,20 +35,15 @@ const About = () => {
               {" "}
               Shankar Narayan College.{" "}
             </span>
-            I focus on backend and full-stack web development. I also have
-            experience using Git for version control and implementing middleware
-            for real-time features. I follow good development practices
-            including debugging, testing, writing clean and maintainable code. I
-            also have a good understanding of DSA, Object-Oriented Programming,
-            and SDLC.
+            I Build intelligent and scalable software solutions that solve real-world problems. I am passionate about backend development, artificial intelligence, and continuously learning emerging technologies. I am currently expanding my expertise in LLM application development, AI agents and cloud deployment to build production-ready AI solutions.
           </p>
 
           <p>Here are some technologies I have been working with:</p>
 
           <ul className="grid grid-cols-2 font-medium gap-y-2 gap-x-5">
             {["MERN Stack",
-              "SQL",
-              "HTML",
+              "SQL , ChromaDB & MongoDB",
+              "Django",
               "Core Java",
               "JS6+",
               "Tailwind CSS",
