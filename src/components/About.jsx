@@ -42,7 +42,7 @@ const About = () => {
 
           <ul className="grid grid-cols-2 font-medium gap-y-2 gap-x-5">
             {["MERN Stack",
-              "SQL , ChromaDB & MongoDB",
+              "SQL",
               "Django",
               "Core Java",
               "JS6+",
