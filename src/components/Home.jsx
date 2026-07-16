@@ -118,8 +118,7 @@ const Home = () => {
         </span>
       </h1>
       <p className="mt-4 max-w-xl text-gray-400  text-sm sm:text-base sm:px-10 leading-relaxed md:text-xl px-5 md:px-1">
-      From ideas to intelligent applications. An M.Sc. Computer Science student passionate about full-stack engineering, Generative AI, and building software that makes a meaningful impact.
-      </p>
+From ideas to intelligent applications. Passionate about full-stack engineering, Generative AI, and building software that solves real-world problems.      </p>
       <button
         onClick={() => window.open("/pradnya-CV.pdf")}
         className="bg-[#112240] text-sm font-medium text-white px-4 py-2 rounded-xl md:hidden mt-5"
