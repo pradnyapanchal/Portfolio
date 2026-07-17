@@ -21,14 +21,16 @@ const About = () => {
       <div className="flex flex-col md:flex-row justify-between items-center    lg:items-start  gap-8 mt-8">
         <div className="flex flex-col gap-5  md:w-3/5 text-sm sm:text-base  lg:text-lg leading-relaxed">
           <p>
-            I am currently pursuing a part-time
+            I 
+            {/* am currently pursuing a part-time
             <span className="font-bold"> Master of Science ( M.Sc.) </span>
             Computer Science at the{" "}
             <span className="text-[rgb(0,255,195)] font-bold">
               {" "}
               University of Mumbai{" "}
             </span>{" "}
-            and hold a{" "}
+            and */}
+             hold a{" "}
             <span className="font-bold">Bachelor of Science ( B.Sc.)</span>{" "}
             degree in Computer Science from
             <span className="text-[rgb(0,255,195)] font-bold">
