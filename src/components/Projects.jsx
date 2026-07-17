@@ -301,6 +301,7 @@ import { VscGithub } from "react-icons/vsc";
 // import images
 import portfolioImg from "../assets/My-portfolio.png";
 import railImg from "../assets/Rail-Sathi-App.jpg";
+import resume_analyzer_platform_image from "../assets/resume_analyzer_platform_image.JPG";
 
 const username = "pradnyapanchal";
 
@@ -313,6 +314,11 @@ const selectedRepos = [
   {
     repoName: "Rail-Sathi-App",
     image: railImg,
+    live: "https://rail-sathi-app.vercel.app",
+  },
+    {
+    repoName: "resume_analyzer_platform",
+    image: resume_analyzer_platform_image,
     live: "https://rail-sathi-app.vercel.app",
   },
 ];
