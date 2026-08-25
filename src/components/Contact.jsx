@@ -27,8 +27,7 @@ const Contact = () => {
         },
         "3qeWHCyHZKRnPbY1J",
       )
-      .then(
-        (response) => {
+      .then(  () => {
           setTimeout(() => {
             toast.success("Message sent successfully");
             setForm({ name: "", email: "", description: "" });

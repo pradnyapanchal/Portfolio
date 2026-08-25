@@ -37,8 +37,7 @@ const About = () => {
               {" "}
               Shankar Narayan College.{" "}
             </span>
-            I Build intelligent and scalable software solutions that solve real-world problems. I am passionate about backend development, artificial intelligence, and continuously learning emerging technologies. I am currently expanding my expertise in LLM application development, AI agents and cloud deployment to build production-ready AI solutions.
-          </p>
+Engineering intelligent software at the intersection of full-stack development and artificial intelligence, with hands-on experience in both  Django and the MERN stack. Passionate about designing scalable backend architectures, developing secure RESTful APIs, and integrating AI into modern web platforms. Driven by computational thinking, clean system design, and a commitment to building reliable, efficient, and future-ready software.          </p>
 
           <p>Here are some technologies I have been working with:</p>
 
@@ -46,10 +45,10 @@ const About = () => {
             {["MERN Stack",
               "SQL",
               "Django",
-              "Core Java",
+              "Java",
               "JS6+",
               "Tailwind CSS",
-              "Gen AI",
+              "Golang",
               "Python"
             ].map((skill, i) => (
               <li key={i} className="flex items-center gap-2">
