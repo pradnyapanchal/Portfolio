@@ -49,14 +49,14 @@ const About = () => {
 
           <ul className="grid grid-cols-2 font-medium gap-y-2 gap-x-5">
             {[
-              "React",
-              "Express",
-              "MongoDB",
+              "MERN Stack",
+              "Django",
+              "Python",
+              "Gen AI",
               "SQL",
-              "HTML",
-              "Core Java",
-              "JS6+",
-              "Tailwind CSS",
+              "ETL Pipelines",
+              "Data Analytics",
+              "AWS",
             ].map((skill, i) => (
               <li key={i} className="flex items-center gap-2">
                 <MdPlayArrow className="text-[rgb(0,255,195)]" />
