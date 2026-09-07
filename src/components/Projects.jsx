@@ -301,11 +301,23 @@ import { VscGithub } from "react-icons/vsc";
 // import images
 import portfolioImg from "../assets/My-portfolio.png";
 import railImg from "../assets/Rail-Sathi-App.jpg";
+import personal_expense_tracker from "../assets/personal_expense_tracker.png";
+import fraud_dashboard from "../assets/screenshot-fraud-dashboard.png";
 import resume_analyzer_platform_image from "../assets/resume_analyzer_platform_image.JPG";
 
 const username = "pradnyapanchal";
 
 const selectedRepos = [
+  {
+    repoName: "Transactpipe",
+    image: fraud_dashboard,
+    live: "https://github.com/pradnyapanchal/Transactpipe",
+  },
+  {
+    repoName: "personal-expense-tracker",
+    image: personal_expense_tracker,
+    live: "https://github.com/pradnyapanchal/personal-expense-tracker",
+  },
   {
     repoName: "Portfolio",
     image: portfolioImg,
@@ -316,7 +328,7 @@ const selectedRepos = [
     image: railImg,
     live: "https://rail-sathi-app.vercel.app",
   },
-    {
+  {
     repoName: "resume_analyzer_platform",
     image: resume_analyzer_platform_image,
     live: "https://rail-sathi-app.vercel.app",
