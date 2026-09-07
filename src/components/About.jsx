@@ -21,7 +21,6 @@ const About = () => {
       <div className="flex flex-col md:flex-row justify-between items-center    lg:items-start  gap-8 mt-8">
         <div className="flex flex-col gap-5  md:w-3/5 text-sm sm:text-base  lg:text-lg leading-relaxed">
           <p>
-            
             {/* am currently pursuing a part-time
             <span className="font-bold"> Master of Science ( M.Sc.) </span>
             Computer Science at the{" "}
@@ -30,26 +29,34 @@ const About = () => {
               University of Mumbai{" "}
             </span>{" "}
             and */}
-             I hold a{" "}
+            I hold a{" "}
             <span className="font-bold">Bachelor of Science ( B.Sc.)</span>{" "}
             degree in Computer Science from
             <span className="text-[rgb(0,255,195)] font-bold">
               {" "}
               Shankar Narayan College.{" "}
             </span>
-Engineering intelligent software at the intersection of full-stack development and artificial intelligence, with hands-on experience in both  Django and the MERN stack. Passionate about designing scalable backend architectures, developing secure RESTful APIs, and integrating AI into modern web platforms. Driven by computational thinking, clean system design, and a commitment to building reliable, efficient, and future-ready software.          </p>
+            Engineering intelligent software at the intersection of full-stack
+            development and artificial intelligence, with hands-on experience in
+            both Django and the MERN stack. Passionate about designing scalable
+            backend architectures, developing secure RESTful APIs, and
+            integrating AI into modern web platforms. Driven by computational
+            thinking, clean system design, and a commitment to building
+            reliable, efficient, and future-ready software.{" "}
+          </p>
 
           <p>Here are some technologies I have been working with:</p>
 
           <ul className="grid grid-cols-2 font-medium gap-y-2 gap-x-5">
-            {["MERN Stack",
+            {[
+              "React",
+              "Express",
+              "MongoDB",
               "SQL",
-              "Django",
-              "Java",
+              "HTML",
+              "Core Java",
               "JS6+",
               "Tailwind CSS",
-              "Golang",
-              "Python"
             ].map((skill, i) => (
               <li key={i} className="flex items-center gap-2">
                 <MdPlayArrow className="text-[rgb(0,255,195)]" />
